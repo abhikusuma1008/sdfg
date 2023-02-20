@@ -7,207 +7,251 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/20c5629a29.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/25d36798a7.js" crossorigin="anonymous"></script>
 <link rel="stylesheet" href="index.css">
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0" >
-<meta name="mobile-web-app-capable" content="yes">
-<meta name="apple-mobile-web-app-capable" content="yes">
-<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-<meta name="viewport" content="initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <meta name="robots" content="none,noarchive"/>
 </head>
 
 <body>
     <div class="bg-container ">
-        <nav class="navbar navbar-expand-sm  navbar-light bg-white fixed-top">
+        <nav class="navbar navbar-expand navbar-light bg-white fixed-top">
             <div class="container">
-                <a class="navbar-brand heading" href="#">Luxury</a>
+                <a class="navbar-brand " href="#">
+                    <h1 class="heading">Luxury</h1>
+                </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div class="navbar-nav ml-auto">
-                        <a class="nav-link active sub" id="navItem1" href="#wcuSection">
+                        <a class="nav-link active" id="navItem1" href="#wcuSection">
                             Home
+                            <span class="sr-only">(current)</span>
                         </a>
-                        <a class="nav-link sub" href="#exploreMenuSection" id="navItem2">Services</a>
-                        <a class="nav-link sub" href="#deliveryPaymentSection" id="navItem3">Gallery</a>
-                        <a class="nav-link sub" href="#followUsSection" id="navItem4">About us</a>
-                        <a class="nav-link sub" href="#followUsSection" id="navItem4">Contact</a>
+                        <a class="nav-link" id="navItem2">Services</a>
+                        <a class="nav-link" id="navItem3">Gallery</a>
+                        <a class="nav-link" id="navItem4">About us</a>
+                        <a class="nav-link" id="navItem4"><button class="button-bg">Contact</button></a>
+
                     </div>
                 </div>
             </div>
         </nav>
-        <div id="carouselExampleSlidesOnly" class="carousel slide " data-bs-ride="carousel">
+
+        <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
-                <div class="carousel-item active cart">
-                    <img src="https://live.staticflickr.com/65535/52696565986_706b9e46b2_b.jpg" class="d-block w-100" alt="LUXURY JEWELRY">
+                <div class="carousel-item active">
+                    <img src="https://live.staticflickr.com/65535/52698297585_2e2f4d70e1_b.jpg" class="d-block w-100" alt="...">
                 </div>
                 <div class="carousel-item">
-                    <img src="" class="d-block w-100" alt="...">
-                </div>
-                <div class="carousel-item">
-                    <img src="..." class="d-block w-100" alt="...">
+                    <img src="https://live.staticflickr.com/65535/52698153579_cd4eece93c_b.jpg" class="d-block w-100" alt="...">
                 </div>
             </div>
         </div>
         <div>
             <div class="category ">
-                <h1>Category</h1>
+                <h1 class="heading">Category</h1>
             </div>
             <div class="container mb-5">
-                <meta name="viewport" content="width=device-width, initial-scale=1.0" >
-                <meta name="mobile-web-app-capable" content="yes">
-                <meta name="apple-mobile-web-app-capable" content="yes">
-                <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-                <meta name="viewport" content="initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
                 <div class="row ">
-                    <div class="col-2">
-                        <h1>Rings</h1>
+                    <div class=" col-2 col-sm-2">
+                        <h1 class="heading1">Rings</h1>
                     </div>
-                    <div class="col-3 ">
-                        <h1>Bracelets</h1>
+                    <div class=" col-2 col-sm-2">
+                        <h1 class="heading1">Bracelets</h1>
                     </diV>
-                    <div class="col-2">
-                        <h1>Earrings</h1>
+                    <div class="col-3 col-sm-2">
+                        <h1 class="heading1">Earrings</h1>
                     </diV>
-                    <div class="col-2">
-                        <h1>Necklace</h1>
+                    <div class="col-2 col-sm-3 ">
+                        <h1 class="heading1">Necklace</h1>
                     </diV>
-                    <div class="col-3">
-                        <h1>Nose Pins</h1>
+                    <div class="col-3 col-sm-3">
+                        <h1 class="heading1">Nose Pins</h1>
                     </diV>
                 </div>
             </div>
         </div>
-        <div class="container pb-5">
+        <div class="container  ">
             <div class="row">
-                <div class="col-4 pr-3">
-                    <div class="image">
-                        <img src="https://live.staticflickr.com/65535/52696938945_015fd86d6e_n.jpg" class="image" />
-                        <h1>Ring One</h1>
-                        <h1>$499</h1>
+                <div class="col-4 col-sm-4 ">
+                    <div>
+                        <img src="https://live.staticflickr.com/65535/52696938945_015fd86d6e_n.jpg" class="image pr-3" />
+                        <h1 class="rtext">Ring One</h1>
+                        <h1 class="rtext">$499</h1>
                     </div>
                 </div>
 
-                <div class="col-4 pr-3">
-                    <div class="image">
-                        <img src="https://live.staticflickr.com/65535/52696937805_792b8be48b_n.jpg" class="image" />
-                        <h1>Ring One</h1>
-                        <h1>$499</h1>
+                <div class=" col-4 col-sm-4  ">
+                    <div>
+                        <img src="https://live.staticflickr.com/65535/52696937805_792b8be48b_n.jpg" class="image pr-3" />
+                        <h1 class="rtext">Ring One</h1>
+                        <h1 class="rtext">$499</h1>
                     </div>
                 </div>
-                <div class="col-4 pr-3">
-                    <div class="image">
-                        <img src="https://i.pinimg.com/564x/e3/6c/c4/e36cc4bdc11313824deb4a08ea19b864.jpg" class="image" />
-                        <h1>Ring One</h1>
-                        <h1>$499</h1>
+                <div class="col-4 col-sm-4 ">
+                    <div>
+                        <img src="https://live.staticflickr.com/65535/52698503288_8ed590c334_n.jpg" class="image pr-3" />
+                        <h1 class="rtext">Ring One</h1>
+                        <h1 class="rtext">$499</h1>
                     </div>
                 </div>
             </div>
 
         </div>
-        <div class="mt-5 pt-5">
-            <h1>Our Services</h1>
+        <div class="mt-5 pt-4 ml-6">
+            <h1 ml-2>Our Services</h1>
             <div class="container mt-5">
                 <div class="row">
-                    <div class="col-6">
-                        <img src="https://live.staticflickr.com/65535/52696546611_1ffc0756f7_w.jpg" />
+                    <div class="col-6 col-sm-6">
+                        <img src="https://live.staticflickr.com/65535/52696546611_1ffc0756f7_w.jpg" class="rimages" />
                     </div>
-                    <div class="col-6">
-                        <h1>Custom Jewelry</h1>
-                        <p>Our team specializes in designing and crafting complex custom jewelry in gold or platinum.Our 3D designers
-                            work with even the most complex ideas and create a digital model for you to approve before commiting to production.
+                    <div class="col-6 col-sm-6">
+                        <h1 class="heading">Custom Jewelry</h1>
+                        <p class="ntext">Our team specializes in designing and crafting complex <br>custom jewelry in gold or platinum.Our 3D designers
+                            can <br> work with even the most complex ideas and create a digital <br>model for you to approve before commiting to production.
                         </p>
-                        <button>Read more</button>
+                        <button class="button-bg">Read more</button>
                     </div>
-                    <div class="col-6">
-                        <h1>Engagement Ring</h1>
-                        <p>Our team of 3d modelers and jewelers can create literally any ring you can imagine,including complex designs.We're
-                            opening up our services to private clients,so you can get a beautiful,designer quality engagement ring at an affordable price.
-                        </p>
-                        <button>Read more</button>
+                    <div class="container mt-5">
+                        <div class="row">
+                            <div class="col-6 col-sm-6">
+                                <h1 class="heading">Engagement Ring</h1>
+                                <p class="ntext">Our team of 3d modelers and jewelers can create literally any <br>ring you can imagine,including complex designs.We're
+                                    opening <br>up our services to private clients,so you can get a beautiful,<br>designer quality engagement ring at an affordable price.
+                                </p>
+                                <button class="button-bg">Read more</button>
+                            </div>
+                            <div class="col-6 col-sm-6">
+                                <img src="https://live.staticflickr.com/65535/52696030812_9e5d1f1a10_w.jpg" class="enr" />
+                            </div>
+                        </div>
                     </div>
-                    <div class="col-6">
-                        <img src="https://live.staticflickr.com/65535/52696030812_9e5d1f1a10_w.jpg" />
+                    <div class="container mt-5">
+                        <div class="row">
+                            <div class=" col-6 col-sm-6">
+                                <img class="rimages" src="https://live.staticflickr.com/65535/52696539241_0a27c163aa_w.jpg" />
+                            </div>
+                            <div class="col-6 col-sm-6">
+                                <h1 class="heading">Jewelry Manfacturing</h1>
+                                <p class="ntext">We work with you to make sure your jewelry is produced<br> exactly as your specify and impecable standards.
+                                    we <br>can manufacture a unique collection for your store,or even<br> work with custom orders for your customers</P>
+                                <button class="button-bg">Read more</button>
+                            </div>
+                        </div>
                     </div>
-                    <div class="col-6">
-                        <img src="https://live.staticflickr.com/65535/52696539241_0a27c163aa_w.jpg" />
-                    </div>
-                    <div class="col-6">
-                        <h1>Jewelry Manfacturing</h1>
-                        <p>We work with you to make sure your jewelry is produced exactly as your specify and impecable standards.
-                            we can manufacture a unique collection for your store,or even work with custom orders for your customers</P>
-                        <button>Read more</button>
-                    </div>
+
 
                 </div>
             </div>
         </div>
-        <div class="container">
+        <div class="container mt-5">
             <div class="row">
-                <div class="col-6">
-                    <img src="https://live.staticflickr.com/65535/52696955840_b4b2da785d.jpg" />
+                <div class="col-6 col-sm-6">
+                    <img src="https://live.staticflickr.com/65535/52696955840_b4b2da785d.jpg" class="space" />
                 </div>
-                <div class="col-6">
-                    <h1>No limits to the lifestyle you deserve</h1>
-                    <p>Contact us and we'll reply you back with personalized plan and quote.</p>
-                    <button>Send Your Design data</button>
+                <div class=" col-6 col-sm-6 background-color text-style ">
+                    <h1 class="rtext mt-2">No limits to the lifestyle you deserve</h1>
+                    <p class="ntext">Contact us and we'll reply you back with <br>personalized plan and quote.</p>
+                    <button class=" mt-4 l-button">Send Your Design data</button>
                 </div>
             </div>
         </div>
         <div class="category">
-            <h1>Connect us on <br>Instagram</h1>
+            <h1 class="heading">Connect us on <br>Instagram</h1>
         </div>
         <div class="container">
             <div class="row">
-                <div class="col-5">
-                    <img src="https://live.staticflickr.com/65535/52697000013_db0c8350cd_w.jpg" />
+                <div class="col-5 col-sm-5">
+                    <img src="https://live.staticflickr.com/65535/52697000013_db0c8350cd_w.jpg" class="connect-images1" />
                 </div>
-                <div class="col-2">
-                    <img src="" />
-                    <img src="https://live.staticflickr.com/65535/52696804894_7bec5a4c05_m.jpg" />
+                <div class="col-2 col-sm-2 ">
+                    <img src="https://live.staticflickr.com/65535/52696026617_4eb327036e_m.jpg" class="connect-images2" />
+                    <img src="https://live.staticflickr.com/65535/52696804894_7bec5a4c05_m.jpg" class="connect-images2" />
                 </div>
-                <div class="col-5">
-                    <img src="https://live.staticflickr.com/65535/52696962055_8eb24cc14d_w.jpg" />
+                <div class="col-5 col-sm-5">
+                    <img src="https://live.staticflickr.com/65535/52696962055_8eb24cc14d_w.jpg" class="connect-images3" />
                 </div>
             </div>
         </div>
-        <div>
-            <button>Instagram</button>
+        <div class="button-align mt-5">
+            <button class="button-bg  p-2 pl-3 pr-3">Instagram</button>
         </div>
-        <div>
+        <div class="ml-6">
             <h1>About us</h1>
         </div>
         <div class="container">
             <div class="row">
-                <div class="col-6">
-                    <img src="https://live.staticflickr.com/65535/52696023967_eb4dc8db89.jpg" />
+                <div class="col-5 col-sm-6">
+                    <img class="rimages" src="https://live.staticflickr.com/65535/52696023967_eb4dc8db89.jpg" />
                 </div>
-                <div class="col-6">
-                    <p>At Luxury,we work with high-end designers(both new and established),retail stores,and also private clients looking for that perfect custom piece or engagement ring.</p>
-                    <p>Our studio combines over 20 years of experience with a modern focus on 3d printing technology.While we specialize in custom design and digital modelling,we're also a respectes high end Jewelry manufacturer.</p>
-                    <p>Our expert team of jewelrs and designers will take your custom design idea all the way from concept to reality</p>
+                <div class="col-7 col-sm-6 ntext">
+                    <p class="ntext">At Luxury,we work with high-end designers(both new and established),retail stores,and also private clients looking for that perfect custom piece or engagement ring.</p>
+                    <p class="ntext">Our studio combines over 20 years of experience with a modern focus on 3d printing technology.While we specialize in custom design and digital modelling,we're also a respectes high end Jewelry manufacturer.</p>
+                    <p class="ntext">Our expert team of jewelrs and designers will take your custom design idea all the way from concept to reality</p>
+                    <div class="mt-4 d-flex flex-row justify-content-left">
+                        <div class="ml-3">
+                            <i class="fab fa-twitter icon"></i>
+                        </div>
+                        <div class="ml-3">
+                            <i class="fab fa-facebook icon"></i>
+                        </div>
+                        <div class="ml-3">
+                            <i class="fab fa-instagram icon"></i>
+                        </div>
+
+                    </div>
                 </div>
             </div>
         </div>
-        <div>
-            <button>Contact us</button>
+        <div class="button-align mt-5">
+            <button class="button-bg p-2 pr-4 pl-4 W-6">Contact us</button>
         </div>
-        <div class="container">
+        <div class="container mt-5">
             <div class="row">
-                <div class="col-4">
-                    <h1>Luxury</h1>
-                    <p>At Luxury,we work with high-end designers(both new and established),retail stores,and also private clients looking for that perfect custom piece or engament ring.</p>
+                <div class="col-4 col-sm-4">
+                    <h1 class="heading">Luxury</h1>
+                    <p class="ntext">At Luxury,we work with high-end designers(bothnew and established),<br>retail stores,and also private clients <br>looking for that perfect custom piece or engagement ring.</p>
                 </div>
-                <div class="col-4">
-                    <h1>About us</h1>
-                    <p> Services</p>
-                    <p>Gallery</p>
-                    <p>About us</p>
+                <div class="col-4 col-sm-4">
+                    <h1 class="heading">About us</h1>
+                    <p class="ntext"> Services</p>
+                    <p class="ntext">Gallery</p>
+                    <p class="ntext">About us</p>
                 </div>
-                <div class="col-4">
-                    <h1>Support</h1>
+                <div class="col-4 col-sm-4">
+                    <h1 class="heading">Support</h1>
+                    <div class="d-flex flex-row justify-content-left">
+                        <div>
+                            <i class="fa-regular fa-envelope"></i>
+                        </div>
+                        <div>
+                            <p class="ntext"> hello@luxury.com</p>
+                        </div>
+                    </div>
+                    <div class="d-flex flex-row justify-content-left">
+                        <div>
+                            <i class="fa-regular fa-mobile"></i>
+                        </div>
+                        <div>
+                            <p class="ntext">+12-345-6789</p>
+                        </div>
+                    </div>
+                    <div class="mt-2 d-flex flex-row justify-content-left">
+                        <div class="ml-3">
+                            <i class="fab fa-twitter icon"></i>
+                        </div>
+                        <div class="ml-3">
+                            <i class="fab fa-facebook icon"></i>
+                        </div>
+                        <div class="ml-3">
+                            <i class="fab fa-instagram icon"></i>
+                        </div>
+
+                    </div>
 
                 </div>
             </div>
